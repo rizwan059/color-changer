@@ -4,7 +4,7 @@ import lImage from '../images/line.png'
 import 'remixicon/fonts/remixicon.css'
 import rLogo from '../images/rlogo.png'
 
-const HeaderNavPart = () => {
+const Header = () => {
     return (
 
         <>
@@ -91,4 +91,4 @@ const HeaderNavPart = () => {
     )
 }
 
-export default HeaderNavPart
+export default Header
