@@ -8,6 +8,7 @@ import jquery from '../images/jquery.png'
 import react from '../images/react.png'
 import tailwind from '../images/tailwind.png'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -161,7 +162,7 @@ const About = () => {
 
       </div>
 
-      
+      <Footer />
     </div>
   )
 }
