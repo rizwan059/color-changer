@@ -7,6 +7,7 @@ import wordpress from '../images/wordpress.png'
 import jquery from '../images/jquery.png'
 import react from '../images/react.png'
 import tailwind from '../images/tailwind.png'
+import Navbar from '../components/Navbar'
 
 const About = () => {
   return (
