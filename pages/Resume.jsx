@@ -1,12 +1,19 @@
 import React from 'react'
 
-import Header from '../components/Header'
+import HomeNavSection from '../components/HomeNavSection'
+import ResumeSkillSection from '../components/ResumeSkillSection'
+
 
 const Resume = () => {
   return (
     <>
-    <Header />
-    
+      <div className='flex'>
+
+        <HomeNavSection />
+        <ResumeSkillSection />
+
+      </div>
+
     </>
   )
 }

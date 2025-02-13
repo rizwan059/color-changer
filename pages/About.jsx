@@ -135,11 +135,11 @@ const About = () => {
               </h1>
             </div>
           </div>
-          {/* persona info email section */}
+          {/* personal info email section */}
           <div className='flex'>
             <div className='w-1/2 '>
               <h1 className=' text-gray-200 text-xl pl-5 pt-3'>
-                Email: <span className='text-white font-[robboto]'>sial059689@gmail.com</span>
+                Email: <span className='text-white font-[robboto]'>rizzar3505@gmail.com</span>
               </h1>
             </div>
 
@@ -150,13 +150,18 @@ const About = () => {
             </div>
           </div>
 
-          {/* resume button */}
-          <div className='flex mt-8 ml-6 w-72 rounded-full border border-white font-[robboto]'>
-            <button type="submit" className=' tracking-normal text-white text-xl font-semibold px-8 py-4 rounded-full'>
+
+
+          <div className='flex mt-8 ml-6 w-72   font-[robboto]'>
+
+            <button type="submit" className='text-white tracking-normal text-xl font-semibold px-8 py-4'>
               DOWNLOAD CV
             </button>
-            <img src={downloadImg} alt="" className='h-12 w-12 rounded-full pt-2' />
+
+            <img src={downloadImg} alt="" className='h-12 w-12 pt-2' />
+
           </div>
+          {/* resume button end */}
 
         </div>
 

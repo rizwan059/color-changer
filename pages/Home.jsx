@@ -1,18 +1,20 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+
+import HomeNavSection from '../components/HomeNavSection'
+import HomeMainImgSection from '../components/HomeMainImgSection'
 
 
 const Home = () => {
   return (
     <>
-    
-    
-    <Header />
-    
+            <div className='flex'>
 
-    </>
+                <HomeNavSection />
+                <HomeMainImgSection />
+
+
+            </div>
+        </>
   )
 }
 
